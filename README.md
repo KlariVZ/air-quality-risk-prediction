@@ -1,2 +1,4 @@
 # air-quality-risk-prediction
 QM640 Capstone project on air quality risk prediction using environmental and meteorological data.
+
+This repository contains the QM640 Data Analytics Capstone project, Air Quality Risk Prediction, which investigates how environmental and meteorological factors are associated with air quality conditions and whether air quality categories can be predicted using statistical and machine learning methods. The project uses openly accessible data and documents the full workflow, including data collection, preprocessing, exploratory data analysis, feature selection, modeling, evaluation, and interpretation of results. The goal is to generate practical insights into the drivers of poor air quality and to compare predictive approaches that may support environmental monitoring and risk-informed decision-making.
