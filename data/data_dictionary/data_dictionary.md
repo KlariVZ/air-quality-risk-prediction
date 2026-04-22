@@ -6,7 +6,11 @@ air-quality-risk-prediction/
 │   ├── processed/
 │   │   └── .gitkeep
 │   └── raw/
-│       └── .gitkeep
+│   │   |── raw_air_quality_pm25.csv
+│   │   |── raw_air_quality_pm10.csv
+│   │   |── raw_air_quality_ozone.csv
+│   │   |── raw_air_quality_no2.csv
+|   |   └── raw_weather_noaa.csv
 ├── docs/
 │   └── .gitkeep
 ├── notebooks/
