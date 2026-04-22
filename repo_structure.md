@@ -4,7 +4,6 @@ air-quality-risk-prediction/
 ├── data/
 │   ├── data_dictionary/
 │   │   |── data_dictionary.csv
-|   |   └── data_dictionary.md
 │   ├── processed/
 │   │   └── .gitkeep
 │   └── raw/
@@ -28,4 +27,5 @@ air-quality-risk-prediction/
 │   └── .gitkeep
 ├── src/
 │   └── .gitkeep
-└── README.md
+├── README.md
+└── repo_structure.md
