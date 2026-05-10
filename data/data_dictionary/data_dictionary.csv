@@ -1,0 +1,30 @@
+Variable Name,Definition,Datatype,Allowed Values / Range,Missing Values Handling,Notes
+date,Calendar date of observation,Date,2024-01-01 to 2025-12-31,No missing values,Main merge key
+site_id,EPA monitoring site identifier,String / Integer,150030010,No missing values,Kapolei monitoring site
+local_site_name,Name of EPA monitoring site,String,Kapolei,No missing values,Site metadata
+county,County of EPA monitoring site,String,Honolulu,No missing values,Site metadata
+state,State of EPA monitoring site,String,Hawaii,No missing values,Site metadata
+site_latitude,Latitude of EPA monitoring site,Float,Decimal degrees,No missing values,Site metadata
+site_longitude,Longitude of EPA monitoring site,Float,Decimal degrees,No missing values,Site metadata
+station,NOAA weather station identifier,String,USW00022521,Missing on two dates,Weather station metadata
+station_name,NOAA weather station name,String,"Honolulu International Airport, HI US",Missing on two dates,Nearby weather station
+daily_max_8hr_ozone,Daily maximum 8-hour ozone concentration,Float,Observed EPA range,Retained for EDA; median imputed for modeling,Pollutant predictor
+daily_mean_pm10,Daily mean PM10 concentration,Float,Observed EPA range,Retained for EDA; median imputed for modeling,Pollutant predictor
+daily_mean_pm25,Daily mean PM2.5 concentration,Float,Observed EPA range,Retained for EDA; median imputed for modeling,Pollutant predictor
+daily_max_1hr_no2,Daily maximum 1-hour NO₂ concentration,Float,Observed EPA range,Retained for EDA; median imputed for modeling,Pollutant predictor
+daily_aqi_ozone,Daily AQI value for ozone,Float / Integer,Observed AQI range,Retained for EDA,Used to construct overall_aqi
+daily_aqi_pm10,Daily AQI value for PM10,Float / Integer,Observed AQI range,Retained for EDA,Used to construct overall_aqi
+daily_aqi_pm25,Daily AQI value for PM2.5,Float / Integer,Observed AQI range,Retained for EDA,Used to construct overall_aqi
+daily_aqi_no2,Daily AQI value for NO₂,Float / Integer,Observed AQI range,Retained for EDA,Used to construct overall_aqi
+awnd,Average daily wind speed,Float,Metric units from NOAA file,Retained for EDA; median imputed for modeling,Weather predictor
+prcp,Daily precipitation,Float,Metric units from NOAA file,Retained for EDA; median imputed for modeling,Weather predictor
+tmax,Daily maximum temperature,Float,Degrees Celsius,Retained for EDA; median imputed for modeling,Weather predictor
+tmin,Daily minimum temperature,Float,Degrees Celsius,Retained for EDA; median imputed for modeling,Weather predictor
+overall_aqi,Maximum available pollutant-specific AQI value for each date,Float / Integer,12 to 56 in cleaned dataset,No missing values,Outcome construction variable
+poor_air_quality,Binary target variable for poor air quality classification,Integer,0 = not poor; 1 = poor,No missing values,Target variable
+year,Year extracted from date,Integer,2024 or 2025,No missing values,Time feature
+month,Month extracted from date,Integer,1 to 12,No missing values,Time feature
+season,Season assigned from month,String,"Winter, Spring, Summer, Fall",No missing values,Time feature
+day_of_week,Day of week extracted from date,String,Monday through Sunday,No missing values,Time feature
+is_weekend,Indicator for weekend observation,Integer,0 = weekday; 1 = weekend,No missing values,Time feature
+dominant_pollutant,Pollutant with the highest AQI contribution for the date,String,"Ozone, PM2.5, PM10, NO₂",Based on available AQI values,Used for EDA interpretation
