@@ -1,0 +1,2 @@
+model,approach,accuracy,precision,recall,f1_score,roc_auc
+Random Forest,Baseline class-weighted,0.9863945578231292,0.9666666666666667,0.9666666666666667,0.9666666666666667,0.994017094017094

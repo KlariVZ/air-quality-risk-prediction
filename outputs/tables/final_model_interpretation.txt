@@ -1,0 +1,14 @@
+The final model comparison showed that the baseline class-weighted Random Forest model performed best overall.
+It achieved accuracy = 0.986, precision = 0.967, recall = 0.967, F1-score = 0.967, and ROC-AUC = 0.994
+on the holdout test set. The confusion matrix showed 116 true negatives, 29 true positives, one false
+positive, and one false negative.
+
+SMOTE was tested as an additional class-imbalance strategy by applying synthetic minority oversampling
+only to the training data. The SMOTE-enhanced models did not improve the best-performing model. For Random
+Forest, SMOTE preserved recall at 0.967 but reduced precision from 0.967 to 0.853, lowering the F1-score
+from 0.967 to 0.906. Therefore, the baseline class-weighted Random Forest model was selected as the final
+recommended model.
+
+The final Random Forest feature-importance results should be interpreted as model-based importance rather
+than causal evidence. Feature importance identifies which variables contributed most strongly to classification
+performance within the trained model.
