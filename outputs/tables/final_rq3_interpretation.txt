@@ -1,0 +1,15 @@
+RQ3 asked whether poor air quality days varied significantly across seasons and time periods.
+The results showed strong evidence of seasonal variation. The Kruskal-Wallis test showed that
+overall AQI differed significantly across seasons, H = 171.04, p < .001. Post hoc Mann-Whitney U
+tests with Bonferroni correction showed that winter and spring did not differ significantly from
+each other, but most other seasonal pairs differed significantly.
+
+A chi-square test of independence also showed that the frequency of poor air quality days differed
+significantly by season, χ²(3) = 68.44, p < .001. Winter had the highest proportion of poor air
+quality days at 38.12%, followed by spring at 26.09%, fall at 10.99%, and summer at 7.07%.
+
+Weekday/weekend differences were not statistically significant. The Mann-Whitney U test showed no
+significant difference in overall AQI between weekdays and weekends, U = 51,982.50, p = .349.
+The chi-square test also showed no significant association between weekday/weekend status and poor
+air quality frequency, χ²(1) = 0.03, p = .868. These findings indicate that seasonal variation was
+more meaningful than weekday/weekend variation in the current dataset.

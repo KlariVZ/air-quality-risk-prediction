@@ -1,0 +1,4 @@
+group,n,test,statistic,p_value,decision_alpha_0_05
+Weekday,523,Shapiro-Wilk,0.9764257246981638,1.835375333670039e-07,Not normal
+Weekend,208,Shapiro-Wilk,0.9802685108101337,0.0051168101194723915,Not normal
+Weekday vs Weekend,731,Levene's test,2.0784359214752723,0.14982261441482259,Equal variances assumed

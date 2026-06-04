@@ -1,0 +1,2 @@
+research_question,outcome,grouping_variable,test,chi_square_statistic,degrees_of_freedom,p_value,decision_alpha_0_05
+RQ3,poor_air_quality,is_weekend,Chi-square test of independence,0.027619338399339315,1,0.8680069025452402,Fail to reject H0

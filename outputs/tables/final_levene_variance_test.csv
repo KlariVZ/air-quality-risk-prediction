@@ -1,0 +1,2 @@
+test,statistic,p_value,decision_alpha_0_05
+Levene's test,3.0169401658641144,0.029275987404351684,Equal variances not assumed

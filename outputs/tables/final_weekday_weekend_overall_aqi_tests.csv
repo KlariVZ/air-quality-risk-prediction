@@ -1,0 +1,3 @@
+research_question,outcome,grouping_variable,comparison,test,statistic,p_value,decision_alpha_0_05
+RQ3,overall_aqi,is_weekend,Weekday vs Weekend,Welch's t-test,-0.7545226565012879,0.4509601312603473,Fail to reject H0
+RQ3,overall_aqi,is_weekend,Weekday vs Weekend,Mann-Whitney U,51982.5,0.34927521168100206,Fail to reject H0

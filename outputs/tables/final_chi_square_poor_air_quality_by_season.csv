@@ -1,0 +1,2 @@
+research_question,outcome,grouping_variable,test,chi_square_statistic,degrees_of_freedom,p_value,decision_alpha_0_05
+RQ3,poor_air_quality,season,Chi-square test of independence,68.44071916416895,3,9.206530657759221e-15,Reject H0

@@ -1,0 +1,7 @@
+research_question,outcome,comparison,test,u_statistic,raw_p_value,bonferroni_adjusted_p_value,decision_alpha_0_05
+RQ3,overall_aqi,Winter vs Spring,Mann-Whitney U,17780.5,0.26248630723030686,1.0,Fail to reject H0
+RQ3,overall_aqi,Winter vs Summer,Mann-Whitney U,26562.5,7.40992516258374e-23,4.445955097550244e-22,Reject H0
+RQ3,overall_aqi,Winter vs Fall,Mann-Whitney U,24128.5,1.770664557805217e-14,1.0623987346831302e-13,Reject H0
+RQ3,overall_aqi,Spring vs Summer,Mann-Whitney U,27778.5,1.8373539897034275e-26,1.1024123938220566e-25,Reject H0
+RQ3,overall_aqi,Spring vs Fall,Mann-Whitney U,24749.5,2.3931895656782833e-15,1.43591373940697e-14,Reject H0
+RQ3,overall_aqi,Summer vs Fall,Mann-Whitney U,13540.0,0.0015223802054585018,0.00913428123275101,Reject H0

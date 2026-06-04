@@ -1,0 +1,6 @@
+research_question,analysis_area,outcome,grouping_variable,primary_test,test_statistic,degrees_of_freedom,p_value,decision_alpha_0_05,interpretation
+RQ3,Seasonal differences in overall AQI,overall_aqi,season,Kruskal-Wallis,171.0418,3.0,< .001,Reject H0,Overall AQI differed significantly across seasons.
+RQ3,Pairwise seasonal comparisons,overall_aqi,season,Mann-Whitney U with Bonferroni correction,,,Varies by pair,Mostly reject H0,"Winter and spring did not differ significantly, but most other seasonal pairs differed significantly."
+RQ3,Seasonal differences in poor air quality frequency,poor_air_quality,season,Chi-square test of independence,68.4407,3.0,< .001,Reject H0,The frequency of poor air quality days differed significantly by season.
+RQ3,Weekday vs weekend differences in overall AQI,overall_aqi,is_weekend,Mann-Whitney U,51982.5,,.349,Fail to reject H0,Overall AQI did not differ significantly between weekdays and weekends.
+RQ3,Weekday vs weekend differences in poor air quality frequency,poor_air_quality,is_weekend,Chi-square test of independence,0.0276,1.0,.868,Fail to reject H0,The frequency of poor air quality days did not differ significantly between weekdays and weekends.
